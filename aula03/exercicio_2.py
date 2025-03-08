@@ -23,8 +23,8 @@ print()
 
 
 # INVERTENDO A ORDEM DOS ELEMENTOS DA LISTA
-frutas.reverse()
 print("ORDEM INVERTIDA DOS ELEMENTOS ")
+frutas.reverse()
 print()
 for fruta in frutas:
     print(fruta)
