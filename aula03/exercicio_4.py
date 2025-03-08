@@ -60,5 +60,5 @@ for i in range(2):
     for j in range (2):
         matrix [i][j] = int(input(f"Informe os valores para a posição: {i} e {j} "))
 
-for linha in matrix:
-    print(linha)
+#for linha in matrix:
+    #print(linha)
