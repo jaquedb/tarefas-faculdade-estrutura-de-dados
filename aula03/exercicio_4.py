@@ -47,7 +47,7 @@ print ()
 print (30*"=")
 print ()
 
-#CRIANDO MATRIX COM NÚMERO FORNECIDOS PELO USUÁRIO
+#CRIANDO MATRIZ COM NÚMERO FORNECIDOS PELO USUÁRIO
 print ("Criando matriz com números do usuário ")
 print()
 
@@ -60,5 +60,10 @@ for i in range(2):
     for j in range (2):
         matrix [i][j] = int(input(f"Informe os valores para a posição: {i} e {j} "))
 
-#for linha in matrix:
-    #print(linha)
+print ()
+print (30*"=")
+print ()
+
+print("Valores da matriz")
+for linha in matrix:
+    print(linha)

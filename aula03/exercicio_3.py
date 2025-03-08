@@ -26,6 +26,17 @@ print ()
 print (30*"=")
 print ()
 
+# SOMANDO TODOS OS ELEMENTOS DA LISTA USANDO FOR
+print ("Resultado da soma de todos os elementos da lista: ")
+soma = 0
+for numero in numeros:
+    soma+=numero
+
+print (soma)
+
+print ()
+print (30*"=")
+print ()
 
 # NUMEROS FORNECIDOS POR USUÁRIO
 print("Números fornecido pelo usuário ")
