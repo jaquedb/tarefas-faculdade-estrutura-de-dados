@@ -28,6 +28,7 @@ for nota in notas:
     print (nota)
 
 print (30*"=")
+
 print("MÉDIA")
 print ()
 
@@ -36,10 +37,11 @@ for index, linha in enumerate (notas, start=1):
     print(f"Aluno {index}: {resultado}")
 
 print (30*"=")
-print ("MATRIZ ALEATÓRIA")
-print ()
 
 # MATRIZ ALEATÓRIA
+
+print ("MATRIZ ALEATÓRIA")
+print ()
 
 import random
 
@@ -49,18 +51,27 @@ matriz = [
     [0,0,0]
 ]
 
-
 for i in range(4):
     for j in range(4):
         matriz = [[random.randint(1, 100) for _ in range(i)] for _ in range(j)]
 
+print ()
+
 for mat in matriz:
     print (mat)
 
+print (30*"=")
+# SOMA DA MATRIZ
+
+print("SOMA DA MATRIZ ALEATÓRIA")
+print()
+
+soma = 0
+
+for linha in matriz:
+    soma+=sum(linha)
 
 
-
-
-
+print ("Total: ",soma)
 
 
